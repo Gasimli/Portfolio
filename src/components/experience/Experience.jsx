@@ -13,63 +13,97 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsFillPatchCheckFill />
-              <h4>Lorem ipsum dolor sit</h4>
-              <small className="text-light">Experienced</small>
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Lorem ipsum dolor sit</h4>
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill />
-              <h4>Lorem ipsum dolor sit</h4>
-              <small className="text-light">Experienced</small>
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Lorem ipsum dolor sit</h4>
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill />
-              <h4>Lorem ipsum dolor sit</h4>
-              <small className="text-light">Experienced</small>
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Lorem ipsum dolor sit</h4>
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill />
-              <h4>Lorem ipsum dolor sit</h4>
-              <small className="text-light">Experienced</small>
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Lorem ipsum dolor sit</h4>
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill />
-              <h4>Lorem ipsum dolor sit</h4>
-              <small className="text-light">Experienced</small>
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Lorem ipsum dolor sit</h4>
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Lorem ipsum dolor sit</h4>
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
             </article>
           </div>
+        </div>
 
-          {/* END OF FRONTEND */}
+        {/* ==========END OF FRONTEND========= */}
 
-          <div className="experience__backend">
-            <h3>Backend Development</h3>
-            <div className="experience__content">
-              <article className="experience__details">
-                <BsFillPatchCheckFill />
+        <div className="experience__backend">
+          <h3>Backend Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>Lorem ipsum dolor sit</h4>
-                <small className="text-light">Experienced</small>
-              </article>
-              <article className="experience__details">
-                <BsFillPatchCheckFill />
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>Lorem ipsum dolor sit</h4>
-                <small className="text-light">Experienced</small>
-              </article>
-              <article className="experience__details">
-                <BsFillPatchCheckFill />
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>Lorem ipsum dolor sit</h4>
-                <small className="text-light">Experienced</small>
-              </article>
-              <article className="experience__details">
-                <BsFillPatchCheckFill />
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>Lorem ipsum dolor sit</h4>
-                <small className="text-light">Experienced</small>
-              </article>
-              <article className="experience__details">
-                <BsFillPatchCheckFill />
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>Lorem ipsum dolor sit</h4>
-                <small className="text-light">Experienced</small>
-              </article>
-            </div>
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Lorem ipsum dolor sit</h4>
+                <small className="text-light">Lorem ipsum dolor</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
