@@ -1,20 +1,19 @@
 import React from "react";
 import "./contact.css";
 import { useRef } from "react";
-import emailjs from "emailjs-com"
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_urid3mr",
-        "template_2uc45j7",
-        form.current,
-        "X4wkUM6-nE0qBFrct"
-    )
+    emailjs.sendForm(
+      "service_urid3mr",
+      "template_2uc45j7",
+      form.current,
+      "X4wkUM6-nE0qBFrct"
+    );
     e.target.reset();
   };
   return (
